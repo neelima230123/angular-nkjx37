@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { customerData } from '../customersData';
+import { customersData } from '../customersData';
 
 
 @Component({
@@ -8,7 +8,7 @@ import { customerData } from '../customersData';
   styleUrls: ['./offer.component.css'],
 })
 export class offerComponent {
-  customerData = customerData;
+  customersData = customersData;
   
   
   }
