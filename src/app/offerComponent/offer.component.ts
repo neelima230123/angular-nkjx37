@@ -8,7 +8,7 @@ import { customersData } from '../customersData';
   styleUrls: ['./offer.component.css'],
 })
 export class offerComponent {
-  customerData = customerData;
+  customersData = customersData;
   
   
   }
