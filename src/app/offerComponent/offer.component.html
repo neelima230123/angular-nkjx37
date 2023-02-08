@@ -3,11 +3,11 @@
 <table id="customers">
   <tr>
     <th>S N</th>
-    <th>Custoemr Name</th>
+    <th>Customer Name</th>
     <th>email</th>
     <th>Action</th>
   </tr>
-  <tr *ngFor="let customer of customerData">
+  <tr *ngFor="let customer of customersData">
     <td>{{ customer.customerId }}</td>
     <td>{{ customer.firstName }} {{ customer.lastName }}</td>
     <td>{{ customer.email }}</td>
