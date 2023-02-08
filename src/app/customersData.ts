@@ -1,14 +1,6 @@
-export interface customer {
-  customerId:number;
-  firstName: string;
-  lastName: string;
-  email: string;
-  addressId:number;
-
 export const customersData = [
   {
     customerId: 1,
-  
     firstName: 'MARY',
     lastName: 'SMITH',
     email: 'MARY.SMITH@sakilacustomer.org',
