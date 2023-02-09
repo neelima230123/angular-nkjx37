@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { products } from '../products';
-import { customerData } from '../customersData';
+import { customersData } from '../customersData';
 
 @Component({
   selector: 'app-product-list',
