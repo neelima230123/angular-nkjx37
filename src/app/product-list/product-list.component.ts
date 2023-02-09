@@ -10,7 +10,7 @@ import { customersData } from '../customersData';
 })
 export class ProductListComponent {
   products = products;
-  customerData = customerData;
+  customersData = customersData;
   share() {
     window.alert('The product has been shared!');
   }
