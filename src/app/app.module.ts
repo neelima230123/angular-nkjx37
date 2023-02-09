@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { ProjectDetailsComponent } from './project-details/project-details.component';
 
 @NgModule({
   imports: [
@@ -13,12 +14,16 @@ import { ProductListComponent } from './product-list/product-list.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'products/:productId', component: ProductListComponent
+       },
+
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProjectDetailsComponent
   ],
   bootstrap: [
     AppComponent
