@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+
 import { products } from '../products';
 import { customersData } from '../customersData';
 
